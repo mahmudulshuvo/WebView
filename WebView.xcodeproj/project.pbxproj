@@ -14,6 +14,11 @@
 		C88110B21D3400FE00C9EC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88110B01D3400FE00C9EC58 /* LaunchScreen.storyboard */; };
 		C88110BD1D3400FE00C9EC58 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88110BC1D3400FE00C9EC58 /* WebViewTests.swift */; };
 		C88110C81D3400FE00C9EC58 /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88110C71D3400FE00C9EC58 /* WebViewUITests.swift */; };
+		C88110DC1D34062A00C9EC58 /* Dhaka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88110D71D34062A00C9EC58 /* Dhaka.jpg */; };
+		C88110DD1D34062A00C9EC58 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C88110D81D34062A00C9EC58 /* index.html */; };
+		C88110DE1D34062A00C9EC58 /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88110D91D34062A00C9EC58 /* London.jpg */; };
+		C88110DF1D34062A00C9EC58 /* mystyle.css in Resources */ = {isa = PBXBuildFile; fileRef = C88110DA1D34062A00C9EC58 /* mystyle.css */; };
+		C88110E01D34062A00C9EC58 /* Newyork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88110DB1D34062A00C9EC58 /* Newyork.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C88110C31D3400FE00C9EC58 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88110C71D3400FE00C9EC58 /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		C88110C91D3400FE00C9EC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88110D71D34062A00C9EC58 /* Dhaka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Dhaka.jpg; path = Web/Dhaka.jpg; sourceTree = "<group>"; };
+		C88110D81D34062A00C9EC58 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = Web/index.html; sourceTree = "<group>"; };
+		C88110D91D34062A00C9EC58 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = London.jpg; path = Web/London.jpg; sourceTree = "<group>"; };
+		C88110DA1D34062A00C9EC58 /* mystyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mystyle.css; path = Web/mystyle.css; sourceTree = "<group>"; };
+		C88110DB1D34062A00C9EC58 /* Newyork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Newyork.jpg; path = Web/Newyork.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				C88110A71D3400FE00C9EC58 /* AppDelegate.swift */,
 				C88110A91D3400FE00C9EC58 /* ViewController.swift */,
 				C88110AB1D3400FE00C9EC58 /* Main.storyboard */,
+				C88110D71D34062A00C9EC58 /* Dhaka.jpg */,
+				C88110D81D34062A00C9EC58 /* index.html */,
+				C88110D91D34062A00C9EC58 /* London.jpg */,
+				C88110DA1D34062A00C9EC58 /* mystyle.css */,
+				C88110DB1D34062A00C9EC58 /* Newyork.jpg */,
 				C88110AE1D3400FE00C9EC58 /* Assets.xcassets */,
 				C88110B01D3400FE00C9EC58 /* LaunchScreen.storyboard */,
 				C88110B31D3400FE00C9EC58 /* Info.plist */,
@@ -232,7 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88110DE1D34062A00C9EC58 /* London.jpg in Resources */,
+				C88110DF1D34062A00C9EC58 /* mystyle.css in Resources */,
+				C88110DC1D34062A00C9EC58 /* Dhaka.jpg in Resources */,
 				C88110B21D3400FE00C9EC58 /* LaunchScreen.storyboard in Resources */,
+				C88110E01D34062A00C9EC58 /* Newyork.jpg in Resources */,
+				C88110DD1D34062A00C9EC58 /* index.html in Resources */,
 				C88110AF1D3400FE00C9EC58 /* Assets.xcassets in Resources */,
 				C88110AD1D3400FE00C9EC58 /* Main.storyboard in Resources */,
 			);

@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Cities</title>
+    </head>
+    <body>
+
+    <div id= "background1" style="color:black; display: none;">
+
+        <h2 style = "text-align:center;">London</h2>
+
+        <p style= "float: left; text-align: center; color: black; margin-left : 40px">London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+        <img src="London.jpg" alt="London View" style="width: 50px; height: 50px; float: right;">
+
+    </div>
+
+    <div id= "background2" style="color:black; display: none">
+
+        <h2 style = "text-align:center">Newyork</h2>
+
+        <p style= "float: left; text-align: center; color: black; margin-left : 40px">Newyork is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+        <img src="Newyork.jpg" alt="Newyork View" style="width: 50px; height: 50px; float: right;">
+
+    </div>
+
+    <div id= "background3" style="color:black; display: none">
+
+        <h2 style = "text-align:center">Dhaka</h2>
+
+        <p style= "float: left; text-align: center; color: black; margin-left : 40px">Dhaka is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+        <img src="Dhaka.jpg" alt="Dhaka View" style="width: 50px; height: 50px; float: right;">
+
+    </div>
+
+<script>
+var counter = 1;
+var interval = setInterval(CallDiv,5000), id, element;
+
+  function CallDiv () {
+        
+        
+        if (counter != 1) {
+            element.style.display = 'none'
+        }
+
+        if (counter <=3 ) {
+          id = "background"+counter;
+          element = document.getElementById(id);
+          element.style.display = "";
+                    counter += 1;
+        }
+
+        else {
+          counter = 1  
+          console.log(counter)     
+        }
+
+  }
+
+
+</script>
+
+    </body>
+</html>
